@@ -225,7 +225,25 @@ footer .questions {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     color: white;
 }
+/* Hide menu by default */
+.dropdown {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    position: absolute;
+}
 
+.dropdown li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.dropdown li:hover {
+    background: #ddd;
+}
 
 
 @media screen and (max-width: 1300px) {
