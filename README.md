@@ -83,11 +83,3 @@ Build a React.js version
 License
 This project is for educational purposes only and is not affiliated with Netflix.
 
----
-
-If you want, I can also generate:
-- A GitHub description  
-- Badges (HTML, CSS, JavaScript, License, etc.)  
-- A minimal or advanced version of this README  
-Just tell me!
-
