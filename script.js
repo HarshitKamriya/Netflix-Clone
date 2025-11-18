@@ -10,7 +10,7 @@ const vlc = document.getElementById("vlc");
 
 btn_red.forEach(button => {
     button.addEventListener('click', () => {
-        alert("You will be directed to home page");
+        alert("You will be directed to movie player page");
     });
 });
 
