@@ -5,6 +5,8 @@ const langMenu = document.getElementById("lang-menu");
 
 
 const sign = document.getElementById("sign");
+const vlc = document.getElementById("vlc");
+
 
 btn_red.forEach(button => {
     button.addEventListener('click', () => {
@@ -27,4 +29,8 @@ document.addEventListener("click", (event) => {
 sign.addEventListener("click", () => {
     // Redirect to another page
     window.location.href = "./login.html";
+});
+vlc.addEventListener("click", () => {
+    // Redirect to another page
+    window.location.href = "./vlcplayer/index.html";
 });
